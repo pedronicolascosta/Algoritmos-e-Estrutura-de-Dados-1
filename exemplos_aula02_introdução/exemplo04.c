@@ -1,3 +1,7 @@
+//Exemplo 4
+//Algoritmo (Programa) que calcula o resto da divisão de um número por 2 e exibe o resultado na tela
+//Autor: Pedro Nicolas Costa
+
 #include <stdio.h>
 #include <locale.h>
 

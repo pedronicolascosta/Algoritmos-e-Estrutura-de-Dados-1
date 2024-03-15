@@ -1,3 +1,7 @@
+//Exemplo 1
+//Programa que exibe a mensagem “Bem-vindo a C!”
+//Autor: Pedro Nicolas Costa
+
 #include <stdio.h>>
 
 //funcao main inicia execução do programa

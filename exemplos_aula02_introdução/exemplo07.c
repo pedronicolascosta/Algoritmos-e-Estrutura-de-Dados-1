@@ -1,5 +1,5 @@
-//Exemplo 3
-//Algoritmo (Programa) que soma dois números e exibe o resultado na tela
+//Exemplo 7
+//Programa que multiplica dois números e exibe o resultado na tela.
 //Autor: Pedro Nicolas Costa
 
 #include <stdio.h>
@@ -7,7 +7,7 @@
 
 int main(){
 	setlocale (LC_ALL, "Portuguese");
-	int a, b, soma;
+	int a, b, mult;
 	
 	printf("Digite o valor de A: ");
 	scanf("%d", &a);
@@ -15,9 +15,9 @@ int main(){
 	printf("Digite o valor de B: ");
 	scanf("%d", &b);
 	
-	soma = a + b;
+	mult = a * b;
 	
-	printf("\n A soma dos números é igual à: %d", soma);
+	printf("\n A multiplicação dos números é igual à: %d", mult);
 	
 	return 0;
 }

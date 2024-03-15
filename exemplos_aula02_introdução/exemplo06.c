@@ -1,5 +1,5 @@
-//Exemplo 3
-//Algoritmo (Programa) que soma dois números e exibe o resultado na tela
+//Exemplo 6
+//Programa que calcula a soma de dois números e exibe o resultado na tela em linguagem de programação C.
 //Autor: Pedro Nicolas Costa
 
 #include <stdio.h>

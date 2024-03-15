@@ -1,3 +1,7 @@
+//Exemplo 2
+//Programa que exibe a mensagem Olá Mundo!
+//Autor: Pedro Nicolas Costa
+
 #include <stdio.h>
 #include <locale.h>
 
