@@ -22,5 +22,6 @@ int main(){
 	
 	printf("\n A soma desses dois valores é igual à: %f", soma);
 	
+	system("PAUSE");
 	return 0;
 }
