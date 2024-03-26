@@ -15,7 +15,7 @@ int main(){
 	desconto = valor * 0.10;
 	total =  valor - desconto ;
 	
-	printf("O total a pagar, com 10%% de desconto, é igual à %2.f", total );
+	printf("O total a pagar, com 10%% de desconto, Ã© igual Ã  %.2f", total );
 	
 	return 0;
 }
