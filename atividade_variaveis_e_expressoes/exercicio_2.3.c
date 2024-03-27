@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <locale.h>
+#include <math.h>
 
 int main(){
 	setlocale(LC_ALL, "Portuguese");
@@ -12,7 +13,8 @@ int main(){
 	scanf("%f", &num);
 	
 	if(num>0){
-		printf("---raiz quadrada aqui---");
+		raiz = sqrt(num);
+		printf("A raiz do número digitado é %.2f", raiz);
 	}
 	
 	else{

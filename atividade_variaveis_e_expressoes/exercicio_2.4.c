@@ -5,6 +5,7 @@
 
 #include <stdio.h>
 #include <locale.h>
+#include <math.h>
 
 int main(){
 	setlocale(LC_ALL, "Portuguese");
@@ -15,6 +16,14 @@ int main(){
 	
 	if(num>0){
 		quadrado = num * num;
-		raiz = 
+		raiz = sqrt(num);
+		printf("Este valor ao quadrado é %.2f", quadrado);
+		printf("\nA raiz quadrada do valor é %.2f", raiz);
 	}
+	
+	else{
+		printf("Número inválido.");
+	}
+	
+	return 0;
 }
