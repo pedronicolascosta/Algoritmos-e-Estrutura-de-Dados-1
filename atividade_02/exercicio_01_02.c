@@ -8,6 +8,12 @@
 
 int main(){
 	setlocale(LC_ALL, "Portuguese");
+	int n;
+	
+	printf("Digite a quantidade de números primos que deseja visualizar: \n");
+	scanf("%d", &n);
+	
+	
 	
 	
 	return 0;

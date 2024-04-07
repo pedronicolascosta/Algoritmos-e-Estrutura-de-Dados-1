@@ -14,21 +14,9 @@ int main(){
 	printf("Calculador de peso ideal \n");
 	printf("--Digite 'H' para HOMEM \n");
 	printf("--Digite 'M' para MULHER \n");
-	scanf("%s", &escolha);
+	gets(escolha);
 	
-	if((escolha == "h" || escolha == "H") || (escolha == "m" || escolha == "M")){
-		
-		if(escolha == "h" || escolha == "H"){
-			printf("Opção escolhida: HOMEM \n");
-		}
-		else{
-			printf("Opção escolhida: MULHER \n");
-		}
-	}
-	else{
-		printf("Letra não correspondente. \n");
-		printf("Reinicie o programa e digite H ou M. \n");
-	}
+	printf("%s", escolha);
 	
 	return 0;
 }
