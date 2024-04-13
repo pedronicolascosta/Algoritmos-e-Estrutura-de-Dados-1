@@ -7,24 +7,21 @@
 
 int main(){
 	setlocale(LC_ALL, "Portuguese");
-	int n, linha, coluna;
+	int n, i, j;
 	
 	printf("Digite um número maior que zero: \n");
 	scanf("%d", &n);
 	
-	linha = 1;
 	if(n>0){
-		while(linha <= n){
-			coluna = 1;
+		for(i= 1; i<= n; i++){
 			
-			while(coluna <= linha){
-				printf("%d", linha);
-				coluna = coluna + 1;
+			for(j=1; j<=i; j++){
+				printf("%d", i);
 			}
 			
 		printf("\n");
-		linha = linha + 1;
-		}	
+		
+		}
 	}
 	else{
 		printf("Número digitado é menor ou igual a zero.");
