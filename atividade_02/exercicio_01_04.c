@@ -6,11 +6,20 @@
 
 #include <stdio.h>
 #include <locale.h>
+#include <math.h>
 
 int main(){
-	int n, i, soma;
+	setlocale(LC_ALL, "Portuguese");
+	int n, i, soma=0;
+	
+	printf("Digite a quantidade de vezes que deseja repetir o somatório: \n");
+	scanf("%d", &n);
 	
 	for(i=1;i<=n; i++){
-		soma = soma + (5 * )
+		soma = soma + (5 * pow(i, 2) + 2 * i + 8);
 	}
+	
+	printf("A soma total é igual a %d", soma);
+	
+	return 0;
 }
