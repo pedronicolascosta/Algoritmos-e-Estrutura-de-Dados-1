@@ -11,7 +11,7 @@ int main(){
 	
 	printf("Digite os valores para o vetor A: \n");
 	for(i=0; i<10; i++){
-		printf("Digite um número: \n");
+		printf("Digite um número: ");
 		scanf("%d", &A[i]);
 	}
 	
@@ -19,12 +19,9 @@ int main(){
 		B[i] = A[i];
 	}
 	
-	
-	
-	
-	
-	
-	printf("Existem %d números pares no vetor", contagem);
+	for(i=0; i<10; i++){
+		printf("B[%d]: %d \n", i+1, B[i]);
+	}
 	
 	return 0;
 }
