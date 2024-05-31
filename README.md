@@ -32,7 +32,7 @@ Utilização de MATRIZ<br>
 ➡️ <a href="https://github.com/pedronicolascosta/Algoritmos-e-Estrutura-de-Dados-1/tree/main/simulado_prova">Veja aqui</a><br>
 
 ## Desafio Jogo da Velha 🎮🏆<br>
-➡️ <a href="#">Aguarde...</a><br>
+Aguarde...
 
 
 
