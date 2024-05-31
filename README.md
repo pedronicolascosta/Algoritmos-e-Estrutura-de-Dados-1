@@ -1,7 +1,7 @@
-# Algoritmos e Estrutura de Dados I 💻<br>
-Universidade Municipal de São Caetano do Sul - USCS 🏫<br>
-Professor: Fabio Ferreira de Assis 👨‍🏫<br>
-Autor: <a href="https://github.com/pedronicolascosta">Pedro Nicolas Costa</a>🤓<br>
+# 💻 Algoritmos e Estrutura de Dados I <br>
+🏫 Universidade Municipal de São Caetano do Sul - USCS<br>
+👨‍🏫 Professor: Fabio Ferreira de Assis<br>
+🤓 Autor: <a href="https://github.com/pedronicolascosta">Pedro Nicolas Costa</a><br>
 <br><br>
 ## Atividade #01<br>
 Variáveis e Expressões – Comandos Condicionais<br>
